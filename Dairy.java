@@ -80,7 +80,7 @@ public class Dairy {
 
     public String toString(){
         if (!expired){
-            return "This is some " + type + " from a " + animal + "\nThis is not expired but expires in " + daysTillExpiration + "days";
+            return "This is some " + type + " from a " + animal + "\nThis is not expired but expires in " + daysTillExpiration + " days";
         }
         else{
             return "This is some " + type + " from a " + animal + "\nThis is expired DO NOT CONSUME";
